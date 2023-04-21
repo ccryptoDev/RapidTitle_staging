@@ -1550,6 +1550,18 @@
     "@ethersproject/properties" "^5.7.0"
     "@ethersproject/strings" "^5.7.0"
 
+"@headlessui/react@^1.7.14":
+  "integrity" "sha512-znzdq9PG8rkwcu9oQ2FwIy0ZFtP9Z7ycS+BAqJ3R5EIqC/0bJGvhT7193rFf+45i9nnPsYvCQVW4V/bB9Xc+gA=="
+  "resolved" "https://registry.npmjs.org/@headlessui/react/-/react-1.7.14.tgz"
+  "version" "1.7.14"
+  dependencies:
+    "client-only" "^0.0.1"
+
+"@heroicons/react@^2.0.17":
+  "integrity" "sha512-90GMZktkA53YbNzHp6asVEDevUQCMtxWH+2UK2S8OpnLEu7qckTJPhNxNQG52xIR1WFTwFqtH6bt7a60ZNcLLA=="
+  "resolved" "https://registry.npmjs.org/@heroicons/react/-/react-2.0.17.tgz"
+  "version" "2.0.17"
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
@@ -4141,10 +4153,22 @@ clean-css@^5.2.2:
   dependencies:
     source-map "~0.6.0"
 
+<<<<<<< Updated upstream
 cliui@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/cliui/-/cliui-5.0.0.tgz#deefcfdb2e800784aa34f46fa08e06851c7bbbc5"
   integrity sha512-PYeGSEmmHM6zvoef2w8TPzlrnNpXIjTipYK780YswmIP9vjxmd6Y2a3CB2Ks6/AU8NHjZugXvo8w3oWM2qnwXA==
+=======
+"client-only@^0.0.1":
+  "integrity" "sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA=="
+  "resolved" "https://registry.npmjs.org/client-only/-/client-only-0.0.1.tgz"
+  "version" "0.0.1"
+
+"cliui@^5.0.0":
+  "integrity" "sha512-PYeGSEmmHM6zvoef2w8TPzlrnNpXIjTipYK780YswmIP9vjxmd6Y2a3CB2Ks6/AU8NHjZugXvo8w3oWM2qnwXA=="
+  "resolved" "https://registry.npmjs.org/cliui/-/cliui-5.0.0.tgz"
+  "version" "5.0.0"
+>>>>>>> Stashed changes
   dependencies:
     string-width "^3.1.0"
     strip-ansi "^5.2.0"
@@ -10037,10 +10061,17 @@ react-dev-utils@^12.0.1:
     strip-ansi "^6.0.1"
     text-table "^0.2.0"
 
+<<<<<<< Updated upstream
 react-dom@^16.8.6:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
   integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
+=======
+"react-dom@^16 || ^17 || ^18", "react-dom@^16.8 || ^17.0 || ^18.0", "react-dom@^17.0.0 || ^18.0.0", "react-dom@^18.0.0", "react-dom@^18.2.0", "react-dom@>= 16.8.0", "react-dom@>=16", "react-dom@>=16.6.0", "react-dom@>=16.8", "react-dom@>=16.8.0", "react-dom@>=16.8.6 || ^17.0.0 || ^18.0.0":
+  "integrity" "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g=="
+  "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.2.0.tgz"
+  "version" "18.2.0"
+>>>>>>> Stashed changes
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -10198,13 +10229,28 @@ react@^16.8.6:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
 
+<<<<<<< Updated upstream
 react@^18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
+=======
+"react@^16 || ^17 || ^18", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>= 16.8.0", "react@>=16", "react@>=16.6.0", "react@>=16.8", "react@>=16.8.0", "react@>=16.8.6 || ^17.0.0 || ^18.0.0", "react@>16.0.0":
+  "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
+  "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
+  "version" "18.2.0"
+  dependencies:
+    "loose-envify" "^1.1.0"
+
+"react@^16.14.0", "react@^16.8.6":
+  "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
+  "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
+  "version" "16.14.0"
+>>>>>>> Stashed changes
   dependencies:
     loose-envify "^1.1.0"
 
+<<<<<<< Updated upstream
 read-cache@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/read-cache/-/read-cache-1.0.0.tgz#e664ef31161166c9751cdbe8dbcf86b5fb58f774"
@@ -10216,6 +10262,12 @@ readable-stream@^1.0.33:
   version "1.1.14"
   resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-1.1.14.tgz#7cf4c54ef648e3813084c636dd2079e166c081d9"
   integrity sha512-+MeVjFf4L44XUkhM1eYbD8fyEsxcV81pqMSR5gblfcLCHfZvbrqy4/qYHE+/R5HoBUT11WV5O08Cr1n3YXkWVQ==
+=======
+"read-cache@^1.0.0":
+  "integrity" "sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA=="
+  "resolved" "https://registry.npmjs.org/read-cache/-/read-cache-1.0.0.tgz"
+  "version" "1.0.0"
+>>>>>>> Stashed changes
   dependencies:
     core-util-is "~1.0.0"
     inherits "~2.0.1"
