@@ -11,16 +11,23 @@ import SelectTablesArray from "./SelectTablesArray";
 function SelectTables() {
     return (
         <div className="col-span-3 p-2 w-full">
-
-            <div className="store-card px-8">
-                <div className="flex items-end py-8 text-[#4848A4]">
+            <div className="store-card px-8 py-4">
+                <div className="flex items-end  text-[#4848A4]">
                     <p className="text-3xl px-3" style={{ fontWeight: 600, fontSize: '36px' }}>Certificate of a Title</p>
-                    <img src={require('../../../assets/img/File/Vector.png')} alt="" />
+                    <DescriptionOutlinedIcon style={{ fontSize: '40px' }} />
                 </div>
                 <div className="">
-                    <form>
+                    <Box
+                        component="form"
+                        noValidate
+                        sx={{
+                            display: 'grid',
+                            gridTemplateColumns: { sm: '1fr 1fr 1fr 1fr 1fr' },
+                            gap: 2,
+                        }}
+                    >
                         <SelectTablesArray />
-                    </form>
+                    </Box>
                 </div>
                 <hr className="mt-5" />
                 <div className="flex">
@@ -36,8 +43,8 @@ function SelectTables() {
                         ))
                     }
                 </div>
-                <div className="flex mt-12 py-6 px-2">
-                    <p className="pe-4" style={{ fontSize: '14px' }}>
+                <div className="flex mt-24 mb-3">
+                    <p style={{ fontSize: '14px' }}>
                         Remember, once you have selected a Seller, Lender and DMV,
                         an invitation will be sent to the aforementioned, where they can accept,
                         decline or suggest a change of title.

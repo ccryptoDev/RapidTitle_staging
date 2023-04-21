@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
 import SellerDropdown from "../SellerDropdown";
 import DmvDropdown from "../DmvDropdown";
 import LenderDropdown from "../LenderDropdown";
