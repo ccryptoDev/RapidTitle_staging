@@ -1,10 +1,5 @@
 import React from "react";
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
-import Box from '@mui/material/Box';
-import InputLabel from '@mui/material/InputLabel';
-import FormControl from '@mui/material/FormControl';
-import InputTextField from "./InputTextField";
-import TableList from './SelectTablesArray';
 import SelectListArray from "./SelectListArray";
 import SelectTablesArray from "./SelectTablesArray";
 
@@ -12,22 +7,14 @@ function SelectTables() {
     return (
         <div className="col-span-3 p-2 w-full">
             <div className="store-card px-8 py-4">
-                <div className="flex items-end  text-[#4848A4]">
+                <div className="flex items-end py-5 text-[#4848A4]">
                     <p className="text-3xl px-3" style={{ fontWeight: 600, fontSize: '36px' }}>Certificate of a Title</p>
-                    <DescriptionOutlinedIcon style={{ fontSize: '40px' }} />
+                    <img src={require('../../../assets/img/File/Vector.png')} alt="" />
                 </div>
                 <div className="">
-                    <Box
-                        component="form"
-                        noValidate
-                        sx={{
-                            display: 'grid',
-                            gridTemplateColumns: { sm: '1fr 1fr 1fr 1fr 1fr' },
-                            gap: 2,
-                        }}
-                    >
+                    <form>
                         <SelectTablesArray />
-                    </Box>
+                    </form>
                 </div>
                 <hr className="mt-5" />
                 <div className="flex">
