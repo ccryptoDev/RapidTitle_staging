@@ -16,6 +16,7 @@ import Login from 'views/Auth/Login';
 import Signup from 'views/Auth/Signup';
 import EmailVerify from 'views/Auth/EmailVerify';
 import { ProSidebarProvider } from 'react-pro-sidebar';
+import NewTitle from './views/NewTitle/index';
 
 function App() {
   useEffect( () => {
@@ -47,7 +48,8 @@ function App() {
             <Route path='/auth/login' element={<Login />}/>
             <Route path='/auth/signup' element={<Signup />} />
             <Route path="/verify" element={<EmailVerify />} />          
-            <Route path="/home" element={<PrivateRoute component={Home} />} />        
+            <Route path="/home" element={<PrivateRoute component={Home} />} />
+            <Route path='/createtitle' element={<NewTitle />} />
           </Routes>
         </ProSidebarProvider>
       </Router>
